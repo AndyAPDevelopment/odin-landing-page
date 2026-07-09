@@ -1,4 +1,37 @@
-/* Header section */
+/* ---------- Initial styles ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include the padding and border */
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+.container { /* Align content in the center */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.btn-signup {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start; /* Stop stretching it */
+}
+
+/* ---------- Header section ---------- */
 .top-background {
     background-color: #1f2937;
     color: #f9faf8;
