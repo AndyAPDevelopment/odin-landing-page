@@ -143,3 +143,31 @@ body {
     color: #4b5563;
     font-size: 16px;
 }
+
+/* ---------- Quote section ---------- */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 80px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px; /*prevent overstretching*/
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    align-self: flex-end; /*to move author's name to the far right */
+    font-weight: bold;
+    font-size: 24px;
+    color:#1f2937;
+    margin-top: 16px;
+}
