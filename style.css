@@ -128,7 +128,12 @@ body {
     align-items: center;
     gap: 12px;
     width: 150px; /*standard width for each*/
-    height: 150px;
+    height: 250px;
+}
+
+/* Scale up the image*/
+.info-card:hover .img-card img {
+    transform: scale(2.05);
 }
 
 /*The blue bordered square*/
@@ -137,6 +142,15 @@ body {
     border-radius: 12px;
     width: 150px;
     height: 150px;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover; /* Keeps the image from stretching awkwardly */
+    display: block;
+    transition: transform 0.3s ease; /*Slow scale up effect*/
 }
 
 .info-card p {
